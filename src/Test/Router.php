@@ -12,13 +12,12 @@ class Router
 	
 	public function __construct()
 	{
-		$this->uri = trim(explode('?', $_SERVER['REQUEST_URI'])[0], '/');
+		$this->uri = trim(explode('composer', explode('?', $_SERVER['REQUEST_URI'])[0])[1], '/');
 	}
 	
 	public function run()
 	{
 		$routeFound = false;
-		
 		foreach ($this->routes as $pattern => $route) {
 			if (preg_match("~^{$pattern}$~", $this->uri, $params)) {
 				unset($params[0]);
