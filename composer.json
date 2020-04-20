@@ -1,0 +1,15 @@
+{
+    "name": "homeleon/test",
+    "authors": [
+        {
+            "name": "Homeleonn",
+            "email": "wirus@ukr.net"
+        }
+    ],
+    "require": {},
+	"autoload": {
+        "psr-4": {
+            "Test": "src/Test"
+        }
+    }
+}
