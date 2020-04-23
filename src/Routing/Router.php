@@ -1,6 +1,6 @@
 <?php
 
-namespace Jump;
+namespace Jump\Routing;
 
 use ReflectionMethod;
 
