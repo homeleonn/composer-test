@@ -6,10 +6,20 @@
             "email": "wirus@ukr.net"
         }
     ],
-    "require": {},
+    "require": {
+        "php": ">=7.1"
+    },
 	"autoload": {
         "psr-4": {
-            "Test\\": "src/Test"
+            "Jump\\": "src/"
+        }
+    },
+	"autoload-dev": {
+        "files": [
+			
+        ],
+        "psr-4": {
+			"App\\": "app/"
         }
     }
 }

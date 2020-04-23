@@ -1,2 +1,7 @@
+.idea
 index.php
 vendor/
+App/
+.htaccess
+composer.json
+composer.lock
