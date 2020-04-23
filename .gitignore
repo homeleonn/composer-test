@@ -5,3 +5,4 @@ App/
 .htaccess
 composer.json
 composer.lock
+.git
